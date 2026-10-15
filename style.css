@@ -207,6 +207,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  word-spacing: 5px;
+  font-size: 17px;
 }
 .meta-label {
   font-size: 9px;
@@ -223,6 +225,7 @@ button {
   justify-content: center;
   align-items: start;
   display: flex;
+  margin-bottom: 65px;
 }
 .hero-art img {
   width: 85%;
@@ -273,12 +276,13 @@ button {
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
-  gap: 10px;
+  width: 50%;
+  gap: 19px;
   margin: 10px;
   justify-content: space-evenly;
   justify-items: end;
   padding-top: 25px;
+  /* border: 1px solid #1768f5; */
 }
 .tech-icons img {
   height: 50px;
@@ -864,6 +868,7 @@ footer .wordmark {
   }
   .hero-art {
     height: 330px;
+    margin-bottom: 0;
   }
   .code-lines {
     font-size: 9px;
@@ -881,12 +886,15 @@ footer .wordmark {
     display: block;
   }
   .intro > .section-label {
-    margin-bottom: 34px;
+    margin-bottom: 28px;
   }
   .tech-icons {
     flex-wrap: wrap;
     width: 100%;
     justify-items: start;
+    margin-left: 0;
+    padding-right: 27px;
+    padding-top: 10px;
   }
   .tech-icons img {
     height: 35px;
